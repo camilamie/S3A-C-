@@ -68,3 +68,7 @@ Duas tabelas criadas automaticamente no SQL Server LocalDB:
 
 - **Leituras** — cada leitura sísmica e óptica coletada pelos droids
 - **Alertas** — alertas gerados pela análise geofísica automática
+
+## Aviso
+
+As evidências de de teste da aplicação estão no pdf junto com o diagrama de caso de uso.
