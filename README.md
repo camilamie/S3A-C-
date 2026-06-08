@@ -49,6 +49,21 @@ O sistema em C# simula o **centro de controle em Terra** da missão S³A.
 persiste tudo em banco de dados — exatamente o que uma equipe da NASA
 ou da ESA faria em uma missão real.
 
+| Código C# | Representa na missão |
+|---|---|
+| Classe abstrata `Sensor` | Qualquer sensor embarcado num droid |
+| `SensorSismico` e `SensorOptico` | Os dois instrumentos reais de cada droid |
+| `LeituraSismica` e `LeituraOptica` | Os pacotes de dados transmitidos à Terra |
+| `MiniDroid` | Cada unidade fincada no solo de Marte ou da Lua |
+| `struct CoordenadaPlanetaria` | A posição exata onde o droid foi fincado |
+| `struct Alerta` | Notificação gerada quando algo relevante é detectado |
+| `IAnalisador` | Contrato do serviço científico de análise de dados |
+| `AnalisadorGeofisico` | O algoritmo que interpreta os dados sísmicos e ópticos |
+| `ITransmissor` | Contrato de envio de dados via Deep Space Network |
+| `BancoDados` | Persistência dos dados recebidos no servidor em Terra |
+| `DateTime` em cada leitura | Timestamp preciso de cada transmissão do droid |
+| Exceções customizadas | Falhas reais: sensor inativo, droid sem energia, etc. |
+
 ## Banco de dados
 
 Duas tabelas criadas automaticamente no SQL Server LocalDB:
