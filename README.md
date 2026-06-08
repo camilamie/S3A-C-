@@ -57,7 +57,6 @@ ou da ESA faria em uma missão real.
 | `MiniDroid` | unidade droid fincada no solo de um corpo celeste |
 | `struct CoordenadaPlanetaria` | A posição exata onde o droid foi fincado |
 | `struct Alerta` | Notificação gerada quando algo relevante é detectado |
-| `IAnalisador` | Contrato do serviço científico de análise de dados |
 | `AnalisadorGeofisico` | O algoritmo que interpreta os dados sísmicos e ópticos |
 | `ITransmissor` | Contrato de envio de dados via Deep Space Network |
 | `BancoDados` | Persistência dos dados recebidos no servidor em Terra |
